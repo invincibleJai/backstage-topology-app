@@ -11,7 +11,7 @@ import {
 } from '@backstage/core-components';
 import { ExampleFetchComponent } from '../ExampleFetchComponent';
 
-export const ExampleComponent = () => (
+export const TopologyComponent = () => (
   <Page themeId="tool">
     <Header title="Welcome to plugin-topology-workload!" subtitle="Optional subtitle">
       <HeaderLabel label="Owner" value="Team X" />

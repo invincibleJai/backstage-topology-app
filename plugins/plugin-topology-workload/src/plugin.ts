@@ -13,7 +13,7 @@ export const PluginTopologyWorkloadPage = pluginTopologyWorkloadPlugin.provide(
   createRoutableExtension({
     name: 'PluginTopologyWorkloadPage',
     component: () =>
-      import('./components/ExampleComponent').then(m => m.ExampleComponent),
+      import('./components/TopologyComponent').then(m => m.TopologyComponent),
     mountPoint: rootRouteRef,
   }),
 );
