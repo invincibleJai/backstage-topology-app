@@ -1,0 +1,28 @@
+.odc-base-node {
+  outline: none;
+  cursor: pointer;
+}
+.odc-m-drag-active .odc-base-node {
+  pointer-events: none;
+}
+.odc-base-node:focus {
+  outline: none;
+}
+.odc-base-node.is-filtered .pf-topology__node__background {
+  stroke-width: 2px;
+  stroke: #ef9234;
+}
+
+.odc-m-drag-active .odc-base-node,
+.odc-m-filter-active .odc-base-node {
+  opacity: 0.4;
+}
+.odc-m-drag-active .odc-base-node.pf-m-dragging, .odc-m-drag-active .odc-base-node.pf-m-highlight,
+.odc-m-filter-active .odc-base-node.pf-m-dragging,
+.odc-m-filter-active .odc-base-node.pf-m-highlight {
+  opacity: 1;
+}
+
+.odc-m-filter-active:not(.odc-m-drag-active) .odc-base-node.is-filtered {
+  opacity: 1;
+}
