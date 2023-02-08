@@ -29,7 +29,17 @@
     "@material-ui/core": "^4.9.13",
     "@material-ui/icons": "^4.9.1",
     "@material-ui/lab": "4.0.0-alpha.57",
-    "react-use": "^17.2.4"
+    "react-use": "^17.2.4",
+    "@patternfly/react-core": "4.267.6",
+    "@patternfly/react-icons": "^4.93.3",
+    "@patternfly/react-styles": "^4.92.3",
+    "@patternfly/react-topology": "^4.91.9",
+    "mobx": "^5.15.4",
+    "mobx-react": "^6.2.0",
+    "lodash": "^4.17.19",
+    "classnames": "2.x",
+    "@patternfly/react-charts": "6.94.7",
+    "@patternfly/react-tokens": "4.93.6"
   },
   "peerDependencies": {
     "react": "^16.13.1 || ^17.0.0"

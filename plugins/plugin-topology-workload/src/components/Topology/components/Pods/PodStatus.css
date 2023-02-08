@@ -1,0 +1,12 @@
+.odc-pod-status-tooltip__content {
+  align-items: center;
+  display: flex;
+}
+.odc-pod-status-tooltip__status-box {
+  width: var(--pf-global--icon--FontSize--sm);
+  height: var(--pf-global--icon--FontSize--sm);
+  margin-right: var(--pf-global--spacer--sm);
+}
+.odc-pod-status-tooltip__status-count {
+  margin-right: var(--pf-global--spacer--xs);
+}

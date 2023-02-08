@@ -55,6 +55,8 @@ import {
 
 import { TechDocsAddons } from '@backstage/plugin-techdocs-react';
 import { ReportIssue } from '@backstage/plugin-techdocs-module-addons-contrib';
+// eslint-disable-next-line monorepo/no-internal-import
+import { TopologyComponent } from '@internal/plugin-plugin-topology-workload/src/components/TopologyComponent';
 
 const techdocsContent = (
   <EntityTechdocsContent>
@@ -165,6 +167,10 @@ const serviceEntityPage = (
     <EntityLayout.Route path="/docs" title="Docs">
       {techdocsContent}
     </EntityLayout.Route>
+    {/* Add entity for topology */}
+    <EntityLayout.Route path="/topology" title="Topology">
+      <TopologyComponent />
+    </EntityLayout.Route>
   </EntityLayout>
 );
 
@@ -191,6 +197,11 @@ const websiteEntityPage = (
 
     <EntityLayout.Route path="/docs" title="Docs">
       {techdocsContent}
+    </EntityLayout.Route>
+
+     {/* Add entity for topology */}
+     <EntityLayout.Route path="/topology" title="Topology">
+      <TopologyComponent />
     </EntityLayout.Route>
   </EntityLayout>
 );
